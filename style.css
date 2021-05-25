@@ -81,17 +81,35 @@ p {
     right: 30px;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     color: black;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 5px   ;
-    padding-right: 5px ;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: fantasy;
     font-size: 20px
 }
-.links:hover{
+
+.links:hover {
     background-color: chocolate;
 }
-html { scroll-behavior:smooth; } a { text-decoration:none; } .article:hover { color:cyan; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: cyan;
+}
+
+.gm {
+    height: 50px;
+    width: 50px;
+}
